@@ -5,13 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Get a Quote | Desentral Projects & Civil Works</title>
 <meta name="description" content="Request a free quote from Desentral Projects & Civil Works — fill in the form and it sends straight to WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- Site header: logo, main navigation, mobile menu toggle and quick contact links -->
 <header class="site-header">
   <div class="wrap">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
     <a href="index.html" class="logo"><img src="images/Logo_1.jpg" alt="Desentral Projects & Civil Works logo" width="100%"></a>
+    <!--Navigator menu-->
     <nav class="main-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -20,9 +25,10 @@
         <li><a href="quote.html" aria-current="page">Get a Quote</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    
+    <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
-    </button>
+    </label>
     <div class="header-actions">
       <div class="social-icons">
         <a href="https://wa.me/27640948066" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
@@ -41,7 +47,7 @@
   <div class="wrap">
     <span class="section-eyebrow">Get a quote</span>
     <h1>Tell us about the job</h1>
-    <p>Fill in the form and it opens WhatsApp with your details already filled in — just hit send. Or call, email or message us directly.</p>
+    <p>Fill in the form below to gather your thoughts, then tap through to WhatsApp to send us the details. Or call, email or message us directly.</p>
   </div>
 </section>
 
@@ -51,22 +57,21 @@
 
     <div>
       <h2>Request a quote on WhatsApp</h2>
-      <!-- Note: static markup only — no JavaScript is wired up yet to actually forward this to WhatsApp -->
-      <form class="quote-form" id="quote-form">
+      <form class="quote-form">
         <div class="form-row">
           <div>
             <label for="name">Full name</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name">
           </div>
           <div>
             <label for="phone">Phone number</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="phone" name="phone">
           </div>
         </div>
 
         <div>
           <label for="suburb">Suburb / area</label>
-          <input type="text" id="suburb" name="suburb" placeholder="e.g. Bedfordview, Tembisa, Kempton Park" required>
+          <input type="text" id="suburb" name="suburb" placeholder="e.g. Bedfordview, Tembisa, Kempton Park">
         </div>
 
         <div>
@@ -86,13 +91,13 @@
 
         <div>
           <label for="message">Tell us more about the job</label>
-          <textarea id="message" name="message" placeholder="Rough size of the job and any timing you have in mind." required></textarea>
+          <textarea id="message" name="message" placeholder="Rough size of the job and any timing you have in mind."></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary">
-          Send via WhatsApp
-        </button>
-        <p class="form-note">This opens WhatsApp on your phone or desktop with your details already typed in — you just press send.</p>
+        <a href="https://wa.me/27640948066?text=Hi%20Desentral%2C%20I%27d%20like%20a%20quote.%20Here%20are%20the%20details%3A%20" class="btn btn-primary" target="_blank" rel="noopener">
+          Chat on WhatsApp
+        </a>
+        <p class="form-note">This is a static HTML/CSS page with no JavaScript, so it can't read what you've typed above and forward it automatically. Use the fields to jot down the details, then tap "Chat on WhatsApp" to open a chat with us directly — paste your notes in there.</p>
       </form>
     </div>
 
@@ -149,6 +154,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>

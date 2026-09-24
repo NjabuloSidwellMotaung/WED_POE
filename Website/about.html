@@ -5,12 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Us | Desentral Projects & Civil Works</title>
 <meta name="description" content="Desentral Projects & Civil Works — a leading construction company serving Johannesburg since 2015.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- Site header: logo, main navigation, mobile menu toggle and quick contact links -->
 <header class="site-header">
   <div class="wrap">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
     <a href="index.html" class="logo"><img src="images/Logo_1.jpg" alt="Desentral Projects & Civil Works logo" width="100%"></a>
     <nav class="main-nav">
       <ul>
@@ -20,9 +24,9 @@
         <li><a href="quote.html">Get a Quote</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
-    </button>
+    </label>
     <div class="header-actions">
       <div class="social-icons">
         <a href="https://wa.me/27640948066" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
@@ -53,7 +57,7 @@
       <p>We know how daunting managing and overseeing your project can be, but we're here to make the process smooth and easy. Decentral Construction Pty Ltd has been serving as a leading construction company since our inception in 2015.</p>
       <p>We're a team of fully-certified professionals who tackle everything from complex projects to simpler operations. Fuelled by our commitment to excellence, we go the extra mile to make sure clients are completely satisfied with our work. Get in touch with us today for a free consultation.</p>
     </div>
-    <img src="images/project-electrical-2.jpg" alt="Electrical distribution board installation" class="hero-image">
+    <img src="images/project-electrical-2.jpg" srcset="images/responsive/project-electrical-2-480w.jpg 480w, images/responsive/project-electrical-2-800w.jpg 800w, images/project-electrical-2.jpg 867w" sizes="(max-width: 40rem) 100vw, 50vw" alt="Electrical distribution board installation" class="hero-image">
   </div>
 </section>
 
@@ -120,6 +124,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>

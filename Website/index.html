@@ -5,12 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Desentral Projects & Civil Works | Renovation & Civil Works, Johannesburg</title>
 <meta name="description" content="Desentral Projects & Civil Works — construction, renovation and civil works across Johannesburg since 2015. Electrical, roofing, waterproofing, tiling, paving and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- Site header: logo, main navigation, mobile menu toggle and quick contact links -->
 <header class="site-header">
   <div class="wrap">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
     <a href="index.html" class="logo"><img src="images/Logo_1.jpg" alt="Desentral Projects & Civil Works logo" width="100%"></a>
     <nav class="main-nav">
       <ul>
@@ -20,9 +24,9 @@
         <li><a href="quote.html">Get a Quote</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
-    </button>
+    </label>
     <div class="header-actions">
       <div class="social-icons">
         <a href="https://wa.me/27640948066" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
@@ -39,30 +43,27 @@
 <!-- Homepage hero: auto/manual image carousel with the main heading and call-to-action buttons -->
 <section class="carousel" aria-label="Project photo carousel">
   <div class="carousel-track">
-    <figure class="carousel-slide is-active">
-      <img src="images/project-roof-painting-finished.jpg" alt="Freshly painted corrugated iron roof in Johannesburg">
+    <figure class="carousel-slide">
+      <img src="images/project-roof-painting-finished.jpg" srcset="images/responsive/project-roof-painting-finished-480w.jpg 480w, images/responsive/project-roof-painting-finished-800w.jpg 800w, images/project-roof-painting-finished.jpg 867w" sizes="100vw" alt="Freshly painted corrugated iron roof in Johannesburg">
       <figcaption>Roof painting &amp; waterproofing</figcaption>
     </figure>
     <figure class="carousel-slide">
-      <img src="images/project-bathroom.jpg" alt="Renovated bathroom with walk-in shower">
+      <img src="images/project-bathroom.jpg" srcset="images/responsive/project-bathroom-480w.jpg 480w, images/responsive/project-bathroom-800w.jpg 800w, images/project-bathroom.jpg 957w" sizes="100vw" alt="Renovated bathroom with walk-in shower">
       <figcaption>Bathroom renovation</figcaption>
     </figure>
     <figure class="carousel-slide">
-      <img src="images/project-roof-tiling.jpg" alt="Roof tile replacement in progress">
+      <img src="images/project-roof-tiling.jpg" srcset="images/responsive/project-roof-tiling-480w.jpg 480w, images/responsive/project-roof-tiling-800w.jpg 800w, images/project-roof-tiling.jpg 959w" sizes="100vw" alt="Roof tile replacement in progress">
       <figcaption>Roof tiling</figcaption>
     </figure>
     <figure class="carousel-slide">
-      <img src="images/project-electrical-2.jpg" alt="Mounted electrical distribution board">
+      <img src="images/project-electrical-2.jpg" srcset="images/responsive/project-electrical-2-480w.jpg 480w, images/responsive/project-electrical-2-800w.jpg 800w, images/project-electrical-2.jpg 867w" sizes="100vw" alt="Mounted electrical distribution board">
       <figcaption>Electrical installations</figcaption>
     </figure>
     <figure class="carousel-slide">
-      <img src="images/project-paving.jpg" alt="Paved garden walkway">
+      <img src="images/project-paving.jpg" srcset="images/responsive/project-paving-480w.jpg 480w, images/project-paving.jpg 774w" sizes="100vw" alt="Paved garden walkway">
       <figcaption>Paving &amp; landscaping</figcaption>
     </figure>
   </div>
-
-  <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">&#10094;</button>
-  <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">&#10095;</button>
 
   <div class="carousel-caption">
     <span class="hero-eyebrow">Johannesburg &middot; Since 2015</span>
@@ -72,8 +73,6 @@
       <a href="projects.html" class="btn btn-outline">See our work</a>
     </div>
   </div>
-
-  <div class="carousel-dots"></div>
 </section>
 
 <!-- Secondary photo strip: four project thumbnails linking through to the full gallery -->
@@ -82,16 +81,16 @@
     <span class="section-eyebrow">Slide show of images</span>
     <div class="grid grid-4">
       <a href="projects.html" class="thumb-link">
-        <img src="images/project-line-marking.jpg" alt="Parking bay line marking" class="project-photo">
+        <img src="images/project-line-marking.jpg" srcset="images/responsive/project-line-marking-480w.jpg 480w, images/project-line-marking.jpg 750w" sizes="(max-width: 40rem) 50vw, 25vw" alt="Parking bay line marking" class="project-photo">
       </a>
       <a href="projects.html" class="thumb-link">
-        <img src="images/project-roof-painting-progress.jpg" alt="Team painting a roof" class="project-photo">
+        <img src="images/project-roof-painting-progress.jpg" srcset="images/responsive/project-roof-painting-progress-480w.jpg 480w, images/responsive/project-roof-painting-progress-800w.jpg 800w, images/responsive/project-roof-painting-progress-1200w.jpg 1200w, images/project-roof-painting-progress.jpg 1296w" sizes="(max-width: 40rem) 50vw, 25vw" alt="Team painting a roof" class="project-photo">
       </a>
       <a href="projects.html" class="thumb-link">
-        <img src="images/project-electrical-1.jpg" alt="Electrical wiring installation" class="project-photo">
+        <img src="images/project-electrical-1.jpg" srcset="images/responsive/project-electrical-1-480w.jpg 480w, images/responsive/project-electrical-1-800w.jpg 800w, images/project-electrical-1.jpg 867w" sizes="(max-width: 40rem) 50vw, 25vw" alt="Electrical wiring installation" class="project-photo">
       </a>
       <a href="projects.html" class="thumb-link">
-        <img src="images/project-bathroom.jpg" alt="Renovated bathroom" class="project-photo">
+        <img src="images/project-bathroom.jpg" srcset="images/responsive/project-bathroom-480w.jpg 480w, images/responsive/project-bathroom-800w.jpg 800w, images/project-bathroom.jpg 957w" sizes="(max-width: 40rem) 50vw, 25vw" alt="Renovated bathroom" class="project-photo">
       </a>
     </div>
   </div>
@@ -202,6 +201,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>
