@@ -107,19 +107,19 @@ Mobile nav menu, open:
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Projects desktop](screenshots/projects-desktop.png) | ![Projects tablet](screenshots/projects-tablet.png) | ![Projects mobile](screenshots/projects-mobile.png) |
+| ![Projects desktop](/Website/screenshots/projects-desktop.png) | ![Projects tablet](/Website/screenshots/projects-tablet.png) | ![Projects mobile](/Website/screenshots/projects-mobile.png) |
 
 ### Get a Quote
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Quote desktop](screenshots/quote-desktop.png) | ![Quote tablet](screenshots/quote-tablet.png) | ![Quote mobile](screenshots/quote-mobile.png) |
+| ![Quote desktop](/Website/screenshots/quote-desktop.png) | ![Quote tablet](/Website/screenshots/quote-tablet.png) | ![Quote mobile](/Website/screenshots/quote-mobile.png) |
 
 ### Gallery Admin
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Admin desktop](screenshots/admin-desktop.png) | ![Admin tablet](screenshots/admin-tablet.png) | ![Admin mobile](screenshots/admin-mobile.png) |
+| ![Admin desktop](/Website/screenshots/admin-desktop.png) | ![Admin tablet](/Website/screenshots/admin-tablet.png) | ![Admin mobile](/Website/screenshots/admin-mobile.png) |
 
 
 ## Changelog
