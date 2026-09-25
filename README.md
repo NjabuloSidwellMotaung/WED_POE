@@ -104,35 +104,35 @@ Rendered directly from the finished HTML/CSS at three viewport widths:
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Home desktop](screenshots/index-desktop.png) | ![Home tablet](screenshots/index-tablet.png) | ![Home mobile](screenshots/index-mobile.png) |
+| ![Home desktop](/Website/screenshots/index-desktop.png) | ![Home tablet](/Website/screenshots/index-tablet.png) | ![Home mobile](/Website/screenshots/index-mobile.png) |
 
 Mobile nav menu, open:
 
-![Home mobile nav open](screenshots/index-mobile-nav-open.png)
+![Home mobile nav open](/Website/screenshots/index-mobile-nav-open.png)
 
 ### About
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![About desktop](screenshots/about-desktop.png) | ![About tablet](screenshots/about-tablet.png) | ![About mobile](screenshots/about-mobile.png) |
+| ![About desktop](/Website/screenshots/about-desktop.png) | ![About tablet](/Website/screenshots/about-tablet.png) | ![About mobile](/Website/screenshots/about-mobile.png) |
 
 ### Projects
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Projects desktop](screenshots/projects-desktop.png) | ![Projects tablet](screenshots/projects-tablet.png) | ![Projects mobile](screenshots/projects-mobile.png) |
+| ![Projects desktop](/Website/screenshots/projects-desktop.png) | ![Projects tablet](/Website/screenshots/projects-tablet.png) | ![Projects mobile](/Website/screenshots/projects-mobile.png) |
 
 ### Get a Quote
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Quote desktop](screenshots/quote-desktop.png) | ![Quote tablet](screenshots/quote-tablet.png) | ![Quote mobile](screenshots/quote-mobile.png) |
+| ![Quote desktop](/Website/screenshots/quote-desktop.png) | ![Quote tablet](/Website/screenshots/quote-tablet.png) | ![Quote mobile](/Website/screenshots/quote-mobile.png) |
 
 ### Gallery Admin
 
 | Desktop | Tablet | Mobile |
 |---|---|---|
-| ![Admin desktop](screenshots/admin-desktop.png) | ![Admin tablet](screenshots/admin-tablet.png) | ![Admin mobile](screenshots/admin-mobile.png) |
+| ![Admin desktop](/Website/screenshots/admin-desktop.png) | ![Admin tablet](/Website/screenshots/admin-tablet.png) | ![Admin mobile](/Website/screenshots/admin-mobile.png) |
 
 
 ## Changelog
